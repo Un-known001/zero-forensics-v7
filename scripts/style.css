@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a2e;
+    color: #e4e4e4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #0f0f1a;
+    padding: 20px 0;
+    border-bottom: 3px solid #00ffc8;
+}
+h1 {
+    color: #00ffc8;
+    margin: 0;
+}
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.tool-card {
+    background-color: #2c2c54;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    text-align: left;
+}
+.very-advanced {
+    border: 2px solid #ff007f;
+    background-color: #3b2c54; 
+}
+h2 {
+    color: #f7b731;
+    border-bottom: 1px solid #4a4a70;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+input[type="text"], input[type="password"], textarea, input[type="file"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #5a5a8a;
+    border-radius: 4px;
+    background-color: #1a1a2e;
+    color: #e4e4e4;
+    resize: vertical;
+}
+button {
+    background-color: #00ffc8;
+    color: #1a1a2e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+button:hover {
+    background-color: #00cc99;
+}
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px dashed #f7b731;
+    background-color: #1a1a2e;
+    border-radius: 4px;
+    min-height: 20px;
+    font-family: monospace;
+    white-space: pre-wrap;
+}
+footer {
+    padding: 15px;
+    background-color: #0f0f1a;
+    font-size: 0.8em;
+    color: #8a8a9e;
+}
