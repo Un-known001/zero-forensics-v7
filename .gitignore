@@ -1,0 +1,3 @@
+# .gitignore
+.env
+temp_uploads/
