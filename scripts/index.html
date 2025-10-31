@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERO-FORENSICS: V7.0 SUPER INTEL HUB</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ZERO-FORENSICS V7.0 🚀</h1>
+        <p>Real-Time Telegram Alerts Activated: Chat ID 6609528491</p>
+    </header>
+
+    <main>
+        <section class="tool-card"><h2>1. IP Address Decoder</h2><input type="text" id="ipInput" placeholder="Enter suspect IP Address (e.g., 104.24.11.1)"><button onclick="sendToBackend('ipInput', 'ipResult', 'decodeIP')">Track IP</button><div id="ipResult" class="result"></div></section>
+        
+        <section class="tool-card advanced"><h2>2. Crypto Trail Tracker</h2><input type="text" id="walletInput" placeholder="Enter Crypto Wallet Address"><button onclick="sendToBackend('walletInput', 'cryptoResult', 'trackCrypto')">Trace Transaction</button><div id="cryptoResult" class="result"></div></section>
+        
+        <section class="tool-card very-advanced" id="fileUploadTool">
+            <h2>3. File Uploader & Deep Scan</h2>
+            <input type="file" id="fileToUpload">
+            <button onclick="uploadFile()">Upload & Scan</button>
+            <div id="uploadResult" class="result"></div>
+        </section>
+        
+        <section class="tool-card advanced"><h2>4. Malware Signature Analyzer (ML-Powered)</h2><input type="text" id="malwareInput" placeholder="Enter file signature or hash"><button onclick="sendToBackend('malwareInput', 'malwareResult', 'analyzeMalware')">Analyze Signature</button><div id="malwareResult" class="result"></div></section>
+        
+    </main>
+
+    <footer>
+        <p>© 2025 Zero Detective Team - Digital Forensics Mission V7.0</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
